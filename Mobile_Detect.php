@@ -758,6 +758,8 @@ class Mobile_Detect
         'GenericBrowser'  => 'NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger',
         // @reference: https://en.wikipedia.org/wiki/Pale_Moon_(web_browser)
         'PaleMoon'        => 'Android.*PaleMoon|Mobile.*PaleMoon',
+        // Yandex.Browser detect
+        'Yandex'          => 'YaBrowser|Yowser',
     );
 
     /**
@@ -853,6 +855,7 @@ class Mobile_Detect
         'Webkit'        => 'webkit[ /][VER]',
         'PaleMoon'         => 'PaleMoon/[VER]',
         'SailfishBrowser'  => 'SailfishBrowser/[VER]',
+        'Yandex'	=>  'YaBrowser/[VER]',
 
         // Engine
         'Gecko'         => 'Gecko/[VER]',
