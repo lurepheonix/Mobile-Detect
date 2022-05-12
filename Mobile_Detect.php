@@ -19,7 +19,7 @@
  * @author  Nick Ilyin <nick.ilyin@gmail.com>
  * Original author: Victor Stanciu <vic.stanciu@gmail.com>
  *
- * @version 2.8.39
+ * @version 2.8.391
  *
  * Auto-generated isXXXX() magic methods.
  * php -a examples/dump_magic_methods.php
